@@ -1,0 +1,12 @@
+server:
+  port: 8585
+spring:
+  application:
+    name: TranslatorTextT02
+  r2dbc:
+    url: r2dbc:pool:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres
+    username: postgres.bhjxsgxnfgjavqubnfpt
+    password: trasnlatortext
+  translator:
+    api:
+      key: 85046beb628342ad91754e24cd2be708
